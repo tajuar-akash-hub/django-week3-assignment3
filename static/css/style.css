@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+.textWithImage{
+    display: flex;
+}
+.home_main_text{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.my_image{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.textWithImage{
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 50px;
+    background-image: url("static\images\me_cooking.jpg");
+    background-color: rgb(11, 232, 63);
+
+}
+
+.my_card{
+    display: none;
+}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}
+<title>Home</title>
+  
+{% endblock  %}
+
+{% block content %}
+
+<div class="textWithImage" >
+   <div class="home_main_text"  >
+      <h1>
+      In the heart of flavor, where spices dance,
+      "Akash Ranna Bilash," a culinary trance.
+      A kitchen symphony, pots and pans in play,
+      Where each dish tells a tale in its savory display.
+      
+      Beneath the twinkle of culinary stars,
+      Our chefs craft wonders, surpassing memoirs.
+      Ingredients harmonize in a fragrant song,
+      A gastronomic journey where dreams belong.</h1>
+      </div>
+     
+   
+   <div class="my_image">
+    <img src="{% static 'images/me_cooking.jpg' %} " width="300px" alt="">
+    
+   </div>
+    
+{% endblock content %}
